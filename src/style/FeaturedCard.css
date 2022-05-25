@@ -1,0 +1,86 @@
+.FeaturedCard{
+    width: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column;   
+    gap: 20px;
+}
+.parentCard{
+    position: relative;
+}
+.FeaturedCard:hover{
+    background-color: #00C194;
+}
+.FeaturedCard  span {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.MuiCard-root {
+    border-radius: 20px !important;
+}
+
+.contentIcon {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #E9FFFA;
+}
+
+.sectionTwoCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado p {
+    font-weight: bold;
+    size: 40px;
+}
+.centrado span {
+    font-weight: bold;
+    size: 20px;
+    color: #00C194;
+}
+.section-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+.containerListings {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+.circleIconArrow {
+    height: 48px;
+  width: 48px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -10px;
+  left: 45%;
+  right: 45%;
+}

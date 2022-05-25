@@ -1,0 +1,24 @@
+.homeContetnSectionOne {
+    background: url(https://res.cloudinary.com/dwbno71qd/image/upload/v1653255718/Realmod/Image_w46ztv.png) center center no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 43vh;
+    background-color: #F1F8F6;
+    display: flex;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    line-height: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20%;
+    top: 90px;
+    position: absolute;
+}
